@@ -1,0 +1,33 @@
+.miraclegroup {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.miraclegroup1 {
+  width: 18rem;
+  /* border-left: 1px solid #d6a4a4; */
+}
+.mymiracle {
+  display: flex !important;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-left: 1px solid gray;
+}
+.miraclegroup111 {
+  color: rgb(39, 95, 154);
+  font-size: 26px;
+  font-weight: 700;
+}
+.slick-next {
+    right: -25px;
+    position: absolute;
+    right: 10px;
+}
+@media (max-width: 767px) {
+  .miraclegroup {
+    width: 87%;
+    margin: auto;
+  }
+  .miraclegroup1 {
+    width: 17rem;
+  }
+}

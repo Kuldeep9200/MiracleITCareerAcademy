@@ -1,0 +1,138 @@
+.mycompines {
+  padding: 30px;
+  height: 15vh;
+  justify-content: space-around;
+}
+.compnaysour {
+  width: 86%;
+  margin: auto;
+justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.backsid {
+  height: 108px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 13px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px 0px;
+  width: 170px !important;
+  margin: 50px;
+}
+.circle-wrapper {
+  position: relative;
+  width: 114px;
+  height: 114px;
+  /* float: left; */
+  left: -9px;
+  margin: 10px;
+}
+
+.icon {
+  position: absolute;
+  color: #fff;
+  top: 37px;
+  height: 2rem;
+  border-radius: 20px;
+  left: 73px;
+
+  width: 12vh;
+  transform: translate(-50%, -50%);
+}
+.circle {
+  display: block;
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+  padding: 2.5px;
+  background-clip: content-box;
+  animation: spin 10s linear infinite;
+}
+
+.circle-wrapper:active .circle {
+  animation: spin 2s linear infinite;
+}
+
+.success {
+  background-color: #4bb543;
+  border: 2.5px dashed #4bb543;
+}
+
+.error {
+  /* background-color: #CA0B00; */
+  border: 2.5px dashed #ca0b00;
+}
+
+.warning {
+  background-color: #f0d500;
+  border: 2.5px dashed #f0d500;
+}
+
+.fa fa-times {
+  width: 100% !important;
+}
+@keyframes spin {
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+.page-wrapper {
+  height: 100vh;
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card11 {
+  align-items: center;
+  border: 2px solid gold;
+}
+.my-card {
+  background-color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.my-card:hover {
+  background-color: #447bf1;
+  color: white;
+}
+
+.backsid {
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: opacity 1s, transform 2s;
+  } 
+.backsid.show-card {
+    opacity: 1;
+    transform: translateY(0);
+  }
+@media (max-width: 767px) {
+  .mycolum {
+    width: 100% !important;
+  }
+  .backsid {
+    margin: 10px;
+  }
+  .compnaysour {
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1260px){
+  .adoutmycard{
+    width: 50% !important;
+
+  }
+  .icon{
+    width: 9vh;
+  }
+
+}

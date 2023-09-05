@@ -1,0 +1,91 @@
+.containerem {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    width: 100%;
+    background-color: #ff4500;
+    padding: 0 20px;
+  }
+  
+  .containerem p {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    font-family: emoj;
+    margin: 0;
+  }
+  
+  .containerem button {
+    background-color: blueviolet;
+    color: aqua;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  .containerem button:hover {
+    background-color: blue;
+    color: white;
+  }
+  .imput11 {
+    width: 45%;
+    border-radius: 3px;
+    height: 6vh;
+    text-transform: capitalize;
+    padding-left: 19px;
+    border: none;
+}
+  .resumsub {
+    margin-left: 20px;
+    width: 10rem;
+    height: 5vh;
+    border-radius: 11px;
+    background: orangered;
+    color: white;
+    border: none;
+  }
+  .resumsub:hover {
+    background-color: white;
+    color: blue;
+  }
+  .bttn{
+    border-radius: 7px;
+    text-decoration: none;
+    color: white !important;
+    border: none;
+    background-color: blueviolet;
+
+  }
+  .icons{
+    font-size: 25px;
+  }
+  .career-box::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(92.28deg, #460311 1.12%, #750920 93.42%);
+    clip-path: inset(0 0 100% 0);
+    opacity: 1;
+    transition: 0.4s;
+    border-radius: 15px;
+}
+@media  (max-width: 768px) {
+  .containerem p  {
+  font-size: 1rem !important;
+}
+.containerem button{
+  font-size: 0.8rem !important;
+}
+.getin2{
+  font-size: 14px;
+}
+
+}

@@ -1,0 +1,21 @@
+.mycourcecard11{
+ background-color: rgb(20, 34, 70);
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ padding: 10px !important;
+ width: 29%;
+ border-radius: 13px;
+ margin: 20px;
+ margin-top: 0px !important;
+}
+.mycourcecard1{
+    border: 2px solid gold;
+
+    background-color: rgb(20, 34, 70);
+}
+@media (max-width: 767px) {
+    .mycourcecard11{
+        width: 98%;
+        margin: 5px;
+    }
+    
+}

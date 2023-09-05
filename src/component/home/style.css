@@ -1,0 +1,351 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&display=swap"); */
+.num {
+  width: 32px;
+  height: 32px;
+  
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  margin-right: 10px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 25px;
+
+  font-weight: 800;
+}
+.kTjDPe {
+  padding: 29px !important;
+  height: 113px !important;
+}
+.join1 {
+  font-weight: 700;
+}
+
+.accordion-item {
+  border: none !important;
+  border-bottom: 1px solid blueviolet !important;
+}
+.mytext {
+  margin-top: 20px;
+  padding: 15px;
+  color: white;
+  font-weight: 900 !important;
+  font-family: CerebriSans !important;
+}
+.homeh {
+  font-size: 25px !important;
+  font-weight: 700;
+  color: white;
+
+  font-family: CerebriSans !important;
+}
+.homep {
+  font-size: 19px !important;
+  color: white;
+  font-weight: 400;
+  font-family: CerebriSans !important;
+ 
+}
+.join1,
+.joine2,
+.joine3 {
+  font-family: CerebriSans !important;
+  color: white;
+}
+.accordion-button {
+  color: #090971 ;
+  font-family: CerebriSans !important;
+}
+.modal-content {
+  width: 49rem !important;
+  right: 112px;
+}
+
+.homeimage {
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: opacity 1s, transform 2s;
+}
+
+.homeimage.show-card {
+  opacity: 1;
+  transform: translateX(0);
+}
+.myhomepagea1 {
+  opacity: 0;
+  transform: translateY(-70px);
+  transition: opacity 1s, transform 2s;
+}
+.myhomepagea1.show-card {
+  opacity: 1;
+  transform: translateX(0);
+}
+.article-body {
+  opacity: 0;
+  transform: translateY(70px);
+  transition: opacity 1s, transform 2s;
+}
+.article-body.show-card {
+  opacity: 1;
+  transform: translateX(0);
+}
+.myhomepage {
+  opacity: 0;
+  transform: translateX(20px);
+  transition: opacity 1s, transform 1s;
+}
+.myhomepage.show-card {
+  opacity: 1;
+  transform: translateX(0);
+}
+.joine3 {
+  color: white !important;
+}
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 86vh;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.8;
+}
+.myparia1 {
+  /* border-right: solid 3px rgba(0,255,0,.75); */
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: "Source Code Pro", monospace;
+  font-size: 28px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+.article-wrapper{
+  border: 2px solid #d0b10c !important;
+  border-radius: 13px;
+  
+}
+.containtercompany {
+  position: relative;
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+  background-color: #090971;
+  border-radius: 13px;
+  top: -17px;
+}
+.containtercompany1 {
+  display: flex;
+  justify-content: space-around;
+}
+.containtercompany2 {
+  width: 25%;
+  text-align: center;
+}
+.dropdown-item :hover {
+  background-color: #090971 !important;
+}
+.placed1 {
+  font-family: Poppins, sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  color: aliceblue;
+}
+.placed2 {
+  font-family: Poppins, sans-serif;
+  color: #b4b4b8;
+  font-size: 19px;
+  font-weight: 600;
+}
+/* Animation */
+.myparia1 {
+  animation: animated-text 4s steps(29, end) 1s 1 normal both,
+    animated-cursor 600ms steps(29, end) infinite;
+}
+.slick-prev {
+  display: none !important;
+}
+.myhomepagea1 {
+  border: 4px solid;
+  padding: 10px;
+  background:#dee2e6;
+  border-radius: 13px;
+}
+
+/* CSS */
+.button-24 {
+  margin: auto;
+  background: orangered;
+  border: 1px solid #ff4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #ff4742;
+}
+
+.button-24:active {
+  opacity: 0.5;
+}
+.placec113{
+  color: #ccc8c8 !important;
+  font-weight: 400;
+  font-size: 15px !important;
+  margin-left: 10px;
+}
+.imgpart11{
+  text-align: center;
+  
+
+}
+.finance{
+  color:#bbbbbb;
+  font-size: 14px;
+  margin-left: 30px;
+  text-align: center;
+  margin-top: 35px;
+}
+
+/* text animation */
+
+@keyframes animated-text {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* cursor animations */
+
+
+@media (max-width: 767px) {
+  .card11 {
+    width: 100% !important;
+  }
+  .joine3 {
+    font-size: 18px !important;
+  }
+  .mydiraction{
+    flex-direction: column-reverse;
+  }
+  .myfinacce{
+    width: 100% !important;
+
+  }
+  .enquricol {
+    flex-direction: column;
+  }
+  .button-24 {
+    margin: auto;
+    font-size: 10px;
+  }
+  .myflexbutton1{
+    display: none !important;
+
+  }
+  .modal-content {
+    width: 22rem !important;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    right: 1px !important;
+  }
+  .myenquri {
+    height: 25vh !important;
+  }
+  .accordion-button {
+    font-size: 18px !important;
+  }
+  .kTjDPe {
+    width: 129px !important;
+  }
+  .mycourcecontantp {
+    font-size: 17px !important;
+  }
+  .mycourcecontant {
+    font-size: 22px !important;
+  }
+  #carouselExampleDark .carousel-inner .carousel-item img {
+    height: 30vh !important;
+  }
+  .lilist {
+    font-size: 18px !important;
+  }
+  .containtercompany {
+    width: 98%;
+  }
+  .homep{
+    font-family: CerebriSans !important;
+
+  }
+  .placed1 {
+    font-size: 16px;
+  }
+  .placed2 {
+    justify-content: space-between;
+    font-size: 8px;
+    color: #fff;
+    margin-left: 2px;
+    display: flex;
+  }
+
+  .myparia1 {
+    font-size: 1.8rem !important;
+  }
+  .background-video {
+    height: 50vh !important;
+  }
+  .blogcont {
+    height: 43vh !important;
+  }
+  .testimonial .description {
+    font-size: 13px !important;
+  }
+  .testomo1 {
+    font-size: 2rem !important;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1070px) {
+  .placed1 {
+    font-size: 1.8rem;
+  }
+  .footer-col {
+    padding: 0 4px !important;
+  }
+  .footer-col ul li a {
+    font-size: 15px !important;
+  }
+  .article-wrapper {
+    display: grid;
+    grid-template-columns: 230px 1fr;
+  }
+  .myparia1 {
+    font-size: 3.8rem !important;
+    margin-top: 10% !important;
+  }
+}
+

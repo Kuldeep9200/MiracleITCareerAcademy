@@ -1,0 +1,115 @@
+.footerfixd {
+    position:fixed;
+    bottom:0;
+    left:0;
+	z-index: 999;
+    width:100%;
+    padding: 20px;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #D0DAEE;
+  }
+  .footerfixedtext{
+    padding: 10px 25px;
+    margin-bottom: 0;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    color: #0f3b7b;
+}
+.btn1ba{
+	background-color: #0f3b7b;
+	color: white;
+	
+}
+
+.enquiry-modal-btn {
+    cursor: pointer;
+    padding: 10px 25px;
+    background: linear-gradient(92.34deg, #0d6efd 0.94%, #5e2ced 99.42%);
+    border-radius: 10px;
+    position: relative;
+    top: 0;
+	right: 81%;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    z-index: 9;
+    box-shadow: 0 2px 17px 0 #8080806b;
+}
+.btn-whatsapp-pulse {
+	background: #25d366;
+	color: white;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	font-size: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 16px;
+	text-decoration: none;
+	border-radius: 50%;
+	animation-name: pulse;
+	animation-duration: 1.5s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+	0% {
+		box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+	}
+	80% {
+		box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
+	}
+}
+
+.btn-whatsapp-pulse-border {
+	bottom: 8px;
+    right: 126px;
+	animation-play-state: paused;
+}
+
+.btn-whatsapp-pulse-border::before {
+	content: "";
+	position: absolute;
+	border-radius: 50%;
+	padding: 25px;
+	border: 5px solid #25d366;
+	opacity: 0.75;
+	animation-name: pulse-border;
+	animation-duration: 1.5s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+}
+
+
+@keyframes pulse-border {
+	0% {
+		padding: 25px;
+		opacity: 0.75;
+	}
+	75% {
+		padding: 50px;
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@media (max-width: 767px) {
+
+.btn-whatsapp-pulse-border {
+    bottom: 8px;
+    right: 57px;
+}
+.footerfixedtext {
+	display: none;
+}
+.enquiry-modal-btn{
+	right: 73%;
+}
+}

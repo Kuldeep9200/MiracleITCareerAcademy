@@ -1,0 +1,77 @@
+.common-heading{
+  
+}
+.contactcard{
+    margin: 20px;
+
+}
+.contactrow{
+   
+    margin: auto;
+
+}
+.containercontact{
+    background-image: url(../image/mapimage.png);
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 50px !important;
+
+}
+.placec{
+    font-size: 30px;
+    font-family: CerebriSans !important;
+font-weight: 700;
+}
+.contacticon{
+    color: brown;
+
+}
+.locationcenter{
+    font-size: 22px;
+    font-family: CerebriSans !important;
+    margin-left: 22px;
+}
+.phonenumber{
+    font-size: 24px;
+    font-family: CerebriSans !important;
+    margin-left: 22px; 
+    font-weight: 600;
+}
+.common-heading{
+    color: orangered;
+    font-family: auto;
+    margin-top: 20px;
+    font-weight: 900;
+}
+@media (max-width: 768px) {
+    .contactrow{
+        width: 100% !important;
+    }
+    .phonenumber {
+        font-size: 16px;
+    }
+    .locationcenter {
+        font-size: 16px;
+
+    }
+    .mycontactcard{
+        margin: 0px !important;
+    }
+    .placec {
+        font-size: 21px;
+  }
+  .containercontact {
+    background-image: none;
+   
+     /* Hide the background image on screens with a max-width of 768px (adjust as needed) */
+  }
+}
+  
+  @media (max-width: 480px) {
+    .contactrow{
+        width: 100% !important;
+    }
+    
+  }
