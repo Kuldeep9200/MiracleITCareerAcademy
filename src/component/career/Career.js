@@ -1,6 +1,5 @@
 import { IoSchoolOutline } from "react-icons/io5";
 import { MdPersonPin } from "react-icons/md";
-import { cloneElement } from "react";
 import { MdPushPin } from "react-icons/md";
 import { MdCalendarMonth } from "react-icons/md";
 
