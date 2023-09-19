@@ -56,4 +56,12 @@
   "devDependencies": {
     "react-router-dom": "^6.14.2"
   }
+  {
+  "type": "module",
+  "dependencies": {
+    // ...
+  },
+  // ...
+}
+
 }
