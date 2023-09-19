@@ -68,7 +68,7 @@ const TestimonialSlider = () => {
                     />
                   </div>
                   <p className="description">
-                  i had a great time during the full stack course .I look
+                  I had a great time during the full stack course .I look
                   forward to recommend this course to my friends.
                   </p>
                   <div className="testimonial-profile">

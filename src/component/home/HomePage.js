@@ -73,7 +73,7 @@ const HomePage = () => {
     <div>
       <div className="blogcont">
         <video autoPlay loop muted className="background-video">
-          <source src={require("../image/New Video.mp4")} type="video/mp4" />
+          <source src={require("../image/itmirecal.mp4")} type="video/mp4"/>
         
         </video>
         <div className="row">
@@ -234,7 +234,7 @@ const HomePage = () => {
                   >
                     <div
                       className="accordion-body"
-                      style={{ fontSize: "19px" }}
+                      style={{ fontSize: "19px",fontWeight:"500" }}
                     >
                       You can use the concepts to the most extent while applying
                       to our placement partners thanks to the cutting-edge
@@ -266,7 +266,7 @@ const HomePage = () => {
                   >
                     <div
                       className="accordion-body"
-                      style={{ fontSize: "19px" }}
+                      style={{ fontSize: "19px",fontWeight:"500" }}
                     >
                       In contrast to other platforms, we are not interested in
                       enrolling a large number of students at once and giving
@@ -300,7 +300,7 @@ const HomePage = () => {
                   >
                     <div
                       className="accordion-body"
-                      style={{ fontSize: "19px" }}
+                      style={{ fontSize: "19px",fontWeight:"500" }}
                     >
                       As an added benefit, we will closely focus on your
                       fundamental development, such as personality, confidence,
@@ -334,7 +334,7 @@ const HomePage = () => {
                   >
                     <div
                       className="accordion-body"
-                      style={{ fontSize: "19px" }}
+                      style={{ fontSize: "19px",fontWeight:"500" }}
                     >
                       Online courses, project-based training, and labs provide
                       individualized learning for each student. It will assist
@@ -369,7 +369,7 @@ const HomePage = () => {
                   >
                     <div
                       className="accordion-body"
-                      style={{ fontSize: "19px" }}
+                      style={{ fontSize: "19px",fontWeight:"500" }}
                     >
                       Our infrastructure is well-equipped to facilitate the
                       training and learning processes of students. In addition,
@@ -427,7 +427,7 @@ const HomePage = () => {
                   >
                     <div
                       className="accordion-body"
-                      style={{ fontSize: "19px" }}
+                      style={{ fontSize: "19px",fontWeight:"500" }}
                     >
                       The selection of modules that we offer was painstakingly
                       put together by our team of subject matter experts, who
@@ -462,7 +462,7 @@ const HomePage = () => {
                   >
                     <div
                       className="accordion-body"
-                      style={{ fontSize: "19px" }}
+                      style={{ fontSize: "19px",fontWeight:"500" }}
                     >
                       We believe that engaging, innovative programs could change
                       the way you learn and increase your academic success.
@@ -497,7 +497,7 @@ const HomePage = () => {
                   >
                     <div
                       className="accordion-body"
-                      style={{ fontSize: "19px" }}
+                      style={{ fontSize: "19px",fontWeight:"500" }}
                     >
                       The opportunities for students to interact with
                       professionals from many industries are abundant at our
@@ -531,7 +531,7 @@ const HomePage = () => {
                   >
                     <div
                       className="accordion-body"
-                      style={{ fontSize: "19px" }}
+                      style={{ fontSize: "19px",fontWeight:"500" }}
                     >
                       Our training center features a group of skilled, educated
                       professors who have experience in the field, giving pupils
@@ -566,7 +566,7 @@ const HomePage = () => {
                   >
                     <div
                       className="accordion-body"
-                      style={{ fontSize: "19px" }}
+                      style={{ fontSize: "19px",fontWeight:"500" }}
                     >
                       You will find that the courses offer absolutely the best
                       value for your money, and you will achieve the best

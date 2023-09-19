@@ -2,9 +2,11 @@ import { IoSchoolOutline } from "react-icons/io5";
 import { MdPersonPin } from "react-icons/md";
 import { MdPushPin } from "react-icons/md";
 import { MdCalendarMonth } from "react-icons/md";
+import { ToastContainer, toast } from 'react-toastify';
 import "./career.css";
 import { useState, useEffect } from "react";
-import { NavLink } from "react-router-dom";
+
+import 'react-toastify/dist/ReactToastify.css';
 export const apiKey = process.env.REACT_APP_API_KEY;
 const Career = () => {
   const [mobileNumber, setMobileNumber] = useState("");
@@ -40,10 +42,11 @@ const Career = () => {
     })
       .then((resp) => resp.json())
       .then((result) => {
-        alert("Your application  has submitted successfully ", result);
+        toast.success("Your application  has submitted successfully");
+       
       })
       .catch((error) => {
-        alert("Error:", error);
+        toast.error("Try Again");
       });
   }
 
@@ -81,6 +84,7 @@ const Career = () => {
 
   return (
     <>
+     <ToastContainer className="custom-toast-container" style={{zIndex:"1000"}} />
       <div className="blogcontcource">
         <div className="row">
           <div
@@ -551,23 +555,13 @@ const Career = () => {
                 placeholder="Skills*"
               />
             </div>
-            <div className="apply1" style={{ marginTop: "20px" }}>
-              {/* <iframe
-                src="https://forms.gle/d1dVJpmfvuM6hVFq6"
-                width="100%"
-                height="500"
-                frameborder="0"
-                marginheight="0"
-                marginwidth="0"
-              >
-                Loading...
-              </iframe> */}
+            {/* <div className="apply1" style={{ marginTop: "20px" }}>
+             
               <NavLink to="https://forms.gle/dfEzAjMerQQRYEFY7">
               <input
-                // type="file"
+               
                 className="imput11"
-                // value={resumePath}
-                // onChange={(e) => setResumePath(e.target.value)}
+               
                 style={{
                   width: "96%",
                   marginLeft: "12px",
@@ -578,7 +572,7 @@ const Career = () => {
                 placeholder="uplod your file*"
               />
               </NavLink>
-            </div>
+            </div> */}
 
             <p style={{ margin: "10px", color: "wheat" }}>
               The file should not exceed 1mb

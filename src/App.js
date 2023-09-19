@@ -25,11 +25,14 @@ import GoToTop from "./examples/GotoTop";
 import Navbarbb from "./component/navbarboos/Navbarb";
 import Special100q from "./component/blog/Special100q";
 import Hire from "./component/hirefromus/Hire";
+import FacebookFixel from "./component/FacebookFixel";
 function App() {
   return (
     <>
       <Router>
+      <FacebookFixel/>
         <Navbarbb />
+       
         <div onContextMenu={(event) => event.preventDefault()}>
           <Routes>
             <Route path="/" element={<HomePage />} />

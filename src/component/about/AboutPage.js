@@ -1,7 +1,21 @@
 import "./style.css";
 import AboutCard from "../../examples/AboutCard";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import { useEffect } from "react";
 const AboutPage = () => {
+  const settings = {
+    // dots: true,
+    infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  speed: 500, // Transition speed for the slide
+  autoplaySpeed: 3000, // Total duration for each slide (2 seconds slide + 2 seconds pause)
+  cssEase: "linear",
+  pauseOnHover: false,
+  }
   useEffect(() => {
     // Scroll to the top of the page when the component mounts
     window.scrollTo(0, 0);
@@ -11,19 +25,20 @@ const AboutPage = () => {
     
       <div
         id="carouselExampleInterval"
-        className="carousel slide"
+       
         data-bs-ride="carousel"
         style={{ marginTop: "4%" }}
       >
         <div className="carousel-inner">
-          <div className="carousel-item active" data-bs-interval={2000}>
+        <Slider {...settings}>
+          <div className="carousel-item active">
             <img
               src={require("../image/Banner website (1) (1).png")}
               className="d-block w-100 mybanner"
               alt="..."
             />
           </div>
-          <div className="carousel-item" data-bs-interval={2000}>
+          <div className="carousel-item">
             <img
               src={require("../image/Banner website3 (1).png")}
               className="d-block w-100 mybanner"
@@ -44,25 +59,8 @@ const AboutPage = () => {
               alt="..."
             />
           </div>
+          </Slider>
         </div>
-        <button
-          className="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleInterval"
-          data-bs-slide="prev"
-        >
-          <span className="carousel-control-prev-icon" aria-hidden="true" />
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button
-          className="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleInterval"
-          data-bs-slide="next"
-        >
-          <span className="carousel-control-next-icon" aria-hidden="true" />
-          <span className="visually-hidden">Next</span>
-        </button>
       </div>
 
       <div

@@ -443,7 +443,7 @@ const MainCource8 = () => {
         >
           Outcomes of the program?
         </div>
-        <div className="row" style={{ padding: "50px" }}>
+        <div className="row ourcomesrow" style={{ padding: "50px" }}>
           <div className="col-sm-3">
             <img
               src={require("../image/program-1.png")}
@@ -471,7 +471,7 @@ const MainCource8 = () => {
             </h5>
           </div>
         </div>
-        <div className="row" style={{ padding: "50px" }}>
+        <div className="row ourcomesrow1" style={{ padding: "50px" }}>
           <div
             className="col-sm-8 mycolm colsm66"
             style={{ marginTop: "50px", textAlign: "right" }}

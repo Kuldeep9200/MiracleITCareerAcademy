@@ -446,7 +446,7 @@ const MainCource1 = () => {
         >
           Outcomes of the PGDFSE program?
         </div>
-        <div className="row" style={{ padding: "50px" }}>
+        <div className="row ourcomesrow" style={{ padding: "50px" }}>
           <div className="col-sm-3 colsm66">
             <img
               src={require("../image/program-1.png")}
@@ -476,7 +476,7 @@ const MainCource1 = () => {
             </h5>
           </div>
         </div>
-        <div className="row" style={{ padding: "50px" }}>
+        <div className="row ourcomesrow1" style={{ padding: "50px" }}>
           <div
             className="col-sm-8 mycolm colsm66"
             style={{ marginTop: "50px", textAlign: "right" }}
@@ -701,7 +701,7 @@ const MainCource1 = () => {
           <div className="col-sm-4 cols4a" style={{ textAlign: "end" }}>
             <img
                 src={require("../image/itpro6.webp")}
-              style={{ width: "100%" }}
+              style={{ width: "100%",borderRadius:"50px" }}
               alt="this is job page "
             />
           </div>

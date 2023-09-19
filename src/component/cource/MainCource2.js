@@ -452,7 +452,7 @@ const MainCource2 = () => {
         >
           Outcomes of the program?
         </div>
-        <div className="row" style={{ padding: "50px" }}>
+        <div className="row ourcomesrow" style={{ padding: "50px" }}>
           <div className="col-sm-3 colsm66">
             <img
               src={require("../image/program-1.png")}
@@ -487,7 +487,7 @@ const MainCource2 = () => {
             </h5>
           </div>
         </div>
-        <div className="row" style={{ padding: "50px" }}>
+        <div className="row ourcomesrow1" style={{ padding: "50px" }}>
           <div
             className="col-sm-8 mycolm colsm66"
             style={{ marginTop: "50px", textAlign: "right" }}
@@ -772,7 +772,7 @@ const MainCource2 = () => {
               understanding of Computer System.
             </li>
             <li className="lilist">
-              You must have a graduate degree (B.Com/BSC/BA/B.Tech./M.Tech./MCA/BCA/any
+              You must have a graduate degree (B.Com/BSC/BA/B.Tech. /M.Tech./MCA/BCA/any
               Diploma or degree holder with basic knowledge), even if
               you are a final-year student that would also be considered.
             </li>

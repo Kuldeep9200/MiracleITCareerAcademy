@@ -149,8 +149,9 @@
     flex-direction: column-reverse;
   }
   .mybanner{
+height: 20vh;
+    margin-top: 35px;
 
-    height: 27vh;
   }
   .hh1{
     text-align: center;

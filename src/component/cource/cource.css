@@ -616,6 +616,12 @@
     text-align: justify;
 
   }
+  .ourcomesrow{
+    padding-bottom: 0px !important;
+  }
+  .ourcomesrow1{
+    padding-top: 0px !important;
+  }
   .backend{
     color: orangered;
     font-size: 1.3rem !important;
@@ -744,4 +750,21 @@ color: #f3f6fa !important;
     width: 90%;
     margin-left: 30px !important;
   }
+
+}
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 828px) 
+  and (-webkit-device-pixel-ratio: 2) {
+    .mycompines{
+      width: 136px;
+    }
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 1440px) 
+  and (-webkit-device-pixel-ratio: 3) {
+    .mycompines{
+      width: 136px;
+    }
 }

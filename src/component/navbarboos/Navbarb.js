@@ -1,16 +1,18 @@
 import { NavLink } from "react-router-dom";
-
 import "./nav.css";
 import { useState } from "react";
+
 const Navbarbb = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
+
   const toggleNav = () => {
     setIsNavOpen(!isNavOpen);
   };
 
-  //   const closeNav = () => {
-  //     setIsNavOpen(false);
-  //   };
+  // Function to close the mobile navigation menu
+  const closeNav = () => {
+    setIsNavOpen(false);
+  };
 
   return (
     <div>
@@ -38,12 +40,17 @@ const Navbarbb = () => {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <NavLink className="nav-link" aria-current="page" to="/">
+                <NavLink
+                  className="nav-link"
+                  aria-current="page"
+                  to="/"
+                  onClick={closeNav} 
+                >
                   Home
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/about">
+                <NavLink className="nav-link" to="/about" onClick={closeNav} >
                   About
                 </NavLink>
               </li>
@@ -54,6 +61,7 @@ const Navbarbb = () => {
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
+                  
                 >
                   Course
                 </NavLink>
@@ -62,75 +70,75 @@ const Navbarbb = () => {
                   aria-labelledby="navbarDropdownMenuLink"
                 >
                   <li>
-                    <NavLink className="dropdown-item" to="/maincource">
+                    <NavLink className="dropdown-item" to="/maincource"  onClick={closeNav} >
                       PGDSE
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="dropdown-item" to="/maincource1">
+                    <NavLink className="dropdown-item" to="/maincource1"   onClick={closeNav} >
                       PGDFSE
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="dropdown-item" to="/maincource2">
+                    <NavLink className="dropdown-item" to="/maincource2"   onClick={closeNav} >
                       PGDIE
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="dropdown-item" to="/maincource3">
+                    <NavLink className="dropdown-item" to="/maincource3"   onClick={closeNav} >
                       Full Stack MERN
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="dropdown-item" to="/maincource4">
+                    <NavLink className="dropdown-item" to="/maincource4"   onClick={closeNav} >
                       Full Stack MEAN
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="dropdown-item" to="/maincource5">
+                    <NavLink className="dropdown-item" to="/maincource5"   onClick={closeNav} >
                       Full Stack Java
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="dropdown-item" to="/maincource6">
+                    <NavLink className="dropdown-item" to="/maincource6"   onClick={closeNav} >
                       Full Stack Python
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="dropdown-item" to="/maincource7">
+                    <NavLink className="dropdown-item" to="/maincource7"   onClick={closeNav} >
                       Backend Development
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="dropdown-item" to="/maincource8">
+                    <NavLink className="dropdown-item" to="/maincource8"   onClick={closeNav} >
                       Frontend Development
                     </NavLink>
                   </li>
 
                   <li>
-                    <NavLink className="dropdown-item" to="/maincource9">
+                    <NavLink className="dropdown-item" to="/maincource9"   onClick={closeNav} >
                       Data Anlytics
                     </NavLink>
                   </li>
                 </ul>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/blog">
+                <NavLink className="nav-link" to="/blog"   onClick={closeNav} >
                   Blog
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/hire">
+                <NavLink className="nav-link" to="/hire"   onClick={closeNav} >
                 Recruiters
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/career">
+                <NavLink className="nav-link" to="/career"   onClick={closeNav} >
                   Career
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/contact">
+                <NavLink className="nav-link" to="/contact"   onClick={closeNav} >
                   Contact
                 </NavLink>
               </li>
