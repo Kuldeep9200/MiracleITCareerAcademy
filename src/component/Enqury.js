@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { cloneElement } from "react";
 import { Modal, Button } from "react-bootstrap";
-import { ToastContainer, toast } from 'react-toastify.ems.mjs';
-import 'react-toastify/dist/ReactToastify.css';
+
 export const apiKey = process.env.REACT_APP_API_KEY;
 const EnquiryForm = () => {
   const [showModal, setShowModal] = useState(true);
@@ -23,10 +22,10 @@ const EnquiryForm = () => {
     })
       .then((resp) => resp.json())
       .then((result) => {
-        toast.success("Your enquiry has been submitted successfully");
+        alert("Your enquiry has been submitted successfully");
       })
       .catch((error) => {
-        toast.error("Try Again");
+        alert("An error occurred. Please try again.");
       });
   }
   const handleToggle = () => {
@@ -49,7 +48,7 @@ const EnquiryForm = () => {
 
   return (
     <div>
-       <ToastContainer className="custom-toast-container" style={{zIndex:"1000"}} />
+      
       
       <Modal show={showModal} onHide={handleToggle}>
         <Modal.Header closeButton>
