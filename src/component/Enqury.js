@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { cloneElement } from "react";
 import { Modal, Button } from "react-bootstrap";
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify.ems.mjs';
 import 'react-toastify/dist/ReactToastify.css';
 export const apiKey = process.env.REACT_APP_API_KEY;
 const EnquiryForm = () => {
