@@ -3,11 +3,11 @@ import { MdPersonPin } from "react-icons/md";
 import { cloneElement } from "react";
 import { MdPushPin } from "react-icons/md";
 import { MdCalendarMonth } from "react-icons/md";
-import { ToastContainer, toast } from 'react-toastify.ems.mjs';
+
 import "./career.css";
 import { useState, useEffect } from "react";
 
-import 'react-toastify/dist/ReactToastify.css';
+
 export const apiKey = process.env.REACT_APP_API_KEY;
 const Career = () => {
   const [mobileNumber, setMobileNumber] = useState("");
@@ -43,11 +43,11 @@ const Career = () => {
     })
       .then((resp) => resp.json())
       .then((result) => {
-        toast.success("Your application  has submitted successfully");
+        alert("Your application  has submitted successfully");
        
       })
       .catch((error) => {
-        toast.error("Try Again");
+        alert("Try Again");
       });
   }
 
@@ -85,7 +85,7 @@ const Career = () => {
 
   return (
     <>
-     <ToastContainer className="custom-toast-container" style={{zIndex:"1000"}} />
+     
       <div className="blogcontcource">
         <div className="row">
           <div
