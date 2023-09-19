@@ -3,7 +3,7 @@ import { MdPersonPin } from "react-icons/md";
 import { cloneElement } from "react";
 import { MdPushPin } from "react-icons/md";
 import { MdCalendarMonth } from "react-icons/md";
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify.ems.mjs';
 import "./career.css";
 import { useState, useEffect } from "react";
 
