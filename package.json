@@ -59,9 +59,9 @@
   {
   "type": "module",
   "dependencies": {
-    // ...
-  },
-  // ...
+   
+  }
+
 }
 
 }
