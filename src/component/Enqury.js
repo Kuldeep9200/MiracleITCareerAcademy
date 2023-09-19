@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { cloneElement } from "react";
 import { Modal, Button } from "react-bootstrap";
 
 export const apiKey = process.env.REACT_APP_API_KEY;
