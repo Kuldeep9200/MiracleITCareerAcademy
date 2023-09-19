@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { cloneElement } from 'react';
+import { cloneElement } from "react";
 import { Modal, Button } from "react-bootstrap";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
